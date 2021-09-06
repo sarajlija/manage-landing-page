@@ -262,7 +262,7 @@
       grid-template-rows: auto auto auto auto;
       background-color: hsl(233, 12%, 13%);
       width: 100%;
-      height: 70vh;
+      height: 85vh;
       justify-content: space-between;
       align-content: center;
       /* align-items: stretch;*/
@@ -314,6 +314,7 @@
     padding-left: 0;
     color: #e7e5f6;
     grid-column: 1 /5;
+    grid-row: 5;
     font-size: small;
     /* align-self: center; */
     margin: 0 auto;
@@ -321,11 +322,11 @@
 
 .attribution {
   margin: 1rem;
-  font-size: small;
-  grid-column: 1/5;
-  grid-row: 5;
-  text-align: center;
-  color: rgb(202,215,225);
+    font-size: small;
+    grid-column: 1/5;
+    grid-row: 6;
+    text-align: center;
+    color: rgb(202,215,225);
   }
 .footer-logo__social {
   display: flex;
@@ -632,13 +633,21 @@
     margin-top: 30px; 
     display: flex;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
   }
+  .button-footer {
+    border-radius: 50px;
+    padding: 7px 30px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #ffffff;
+    transition: ease-in-out 0.5s;
+}
   .right-reserved {
     padding-top: 1rem;
     padding-left: 0;
     color: #e7e5f6;
-    grid-column: 1 /5;
+    grid-column: 1 / 5;
     font-size: small;
     margin: 0 auto;
   }
@@ -646,8 +655,8 @@
 .attribution {
     margin: 1rem;
     font-size: small;
-    grid-column: 1/5;
-    grid-row: 5;
+    grid-column: 1 / 5;
+    grid-row: 6;
     text-align: center;
     color: rgb(202,215,225);
   }
