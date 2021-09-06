@@ -336,6 +336,10 @@
   padding-left: 0;
   margin-top: 0.8rem;
   }
+  .error__desktop {
+    position: absolute;
+    top: 25px;
+  }
 }
 
 /*______________________________________________*/
