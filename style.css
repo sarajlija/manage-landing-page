@@ -9,7 +9,7 @@ body{
     margin: 0;
     background-image: url(./images/bg-tablet-pattern.svg), url(./images/bg-tablet-pattern.svg);
     background-repeat: no-repeat,no-repeat;
-    background-position: right 67rem bottom -75rem, right -8rem top -15rem;
+    background-position: right 50rem bottom -76rem, right -14rem top -22rem;
    /* background-size: 60% 80%;*/
     height: 100vh;   
     background-color: #ffffff;
